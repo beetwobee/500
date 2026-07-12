@@ -1,0 +1,135 @@
+{
+  "version": 1,
+  "format": "btob-scene-bundle",
+  "app": "btob-art-viewer",
+  "savedAt": "2026-07-12T08:09:10.329Z",
+  "theme": "light",
+  "projection": "perspective",
+  "viewMode": "3d",
+  "floorMode": "white",
+  "showGrid": false,
+  "light": {
+    "angle": 120,
+    "height": 14,
+    "radius": 11.6,
+    "x": -6.683093184281958,
+    "y": 15,
+    "z": 9.933563762430026,
+    "intensity": 3,
+    "pointLightOn": false,
+    "rimLightOn": true,
+    "pointLightIntensity": 1,
+    "rimLightIntensity": 0.82
+  },
+  "cameraView": {
+    "projection": "perspective",
+    "perspectivePos": {
+      "x": 2.6625609418810994,
+      "y": 3.3862419889923543,
+      "z": 3.195073130257319
+    },
+    "orthoPos": {
+      "x": 2.6625609418810994,
+      "y": 3.3862419889923543,
+      "z": 3.195073130257319
+    },
+    "target": {
+      "x": 0,
+      "y": 0.9899371412993649,
+      "z": 0
+    },
+    "ortho": {
+      "left": -4.946666666666665,
+      "right": 4.946666666666665,
+      "top": 2.7999999999999994,
+      "bottom": -2.7999999999999994
+    },
+    "perspectiveUp": {
+      "x": 0,
+      "y": 1,
+      "z": 0
+    },
+    "orthoUp": {
+      "x": 0,
+      "y": 1,
+      "z": 0
+    },
+    "sceneRollDeg": 0
+  },
+  "models": [
+    {
+      "name": "ma.glb",
+      "ext": "GLB",
+      "visible": true,
+      "materialMode": "original",
+      "defaultMaterialMode": "original",
+      "materialSettings": {
+        "metalReflectivity": 1.15,
+        "glassTransmission": 0.9,
+        "glassOpacity": 0.92
+      },
+      "defaultMaterialSettings": {
+        "metalReflectivity": 1.15,
+        "glassTransmission": 0.9,
+        "glassOpacity": 0.92
+      },
+      "transform": {
+        "position": {
+          "x": 0,
+          "y": 0,
+          "z": -0.86
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1,
+          "uniform": 1
+        }
+      },
+      "bundlePath": "models/ma.glb",
+      "fileName": "ma.glb"
+    },
+    {
+      "name": "bt500.glb",
+      "ext": "GLB",
+      "visible": true,
+      "materialMode": "original",
+      "defaultMaterialMode": "original",
+      "materialSettings": {
+        "metalReflectivity": 1.15,
+        "glassTransmission": 0.9,
+        "glassOpacity": 0.92
+      },
+      "defaultMaterialSettings": {
+        "metalReflectivity": 1.15,
+        "glassTransmission": 0.9,
+        "glassOpacity": 0.92
+      },
+      "transform": {
+        "position": {
+          "x": -1.165,
+          "y": 0,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1,
+          "uniform": 1
+        }
+      },
+      "bundlePath": "models/bt500.glb",
+      "fileName": "bt500.glb"
+    }
+  ]
+}
